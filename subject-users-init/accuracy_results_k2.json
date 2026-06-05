@@ -1,0 +1,29 @@
+[
+  {
+    "group":"overall",
+    "train_n":88513,
+    "train_acc_k2":0.7944,
+    "train_acc_base":0.745,
+    "test_n":9835,
+    "test_acc_k2":0.5745,
+    "test_acc_base":0.5849
+  },
+  {
+    "group":"g0",
+    "train_n":12585,
+    "train_acc_k2":0.9978,
+    "train_acc_base":0.7313,
+    "test_n":1307,
+    "test_acc_k2":0.5295,
+    "test_acc_base":0.5478
+  },
+  {
+    "group":"g1",
+    "train_n":75928,
+    "train_acc_k2":0.7607,
+    "train_acc_base":0.7472,
+    "test_n":8528,
+    "test_acc_k2":0.5814,
+    "test_acc_base":0.5905
+  }
+]

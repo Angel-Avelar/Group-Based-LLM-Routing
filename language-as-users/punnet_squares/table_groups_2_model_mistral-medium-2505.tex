@@ -1,0 +1,29 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.2}
+\caption{Win rate of mistral-medium-2505 by category and group (\textbf{bold} = significant at $\alpha=1.05$)}
+\label{tab:winrate_2}
+\begin{tabular}{lcccc}
+\toprule
+ & \multicolumn{4}{c}{$k=2$ groups} \\
+\cmidrule(lr){2-5}
+ & \multicolumn{2}{c}{group 0} & \multicolumn{2}{c}{group 1} \\
+Category & F & T & F & T \\
+\midrule
+Creative Writing & \textbf{54\% (612/1139)} & \textbf{43\% (55/127)} & \textbf{55\% (1588/2913)} & \textbf{48\% (122/254)} \\
+Complexity & \textbf{53\% (341/644)} & \textbf{52\% (326/622)} & \textbf{56\% (912/1619)} & \textbf{52\% (798/1548)} \\
+Creativity & \textbf{53\% (286/541)} & \textbf{53\% (381/725)} & \textbf{53\% (811/1526)} & \textbf{55\% (899/1641)} \\
+Domain Knowledge & \textbf{49\% (113/232)} & \textbf{54\% (554/1034)} & \textbf{56\% (365/650)} & \textbf{53\% (1345/2517)} \\
+Problem Solving & \textbf{56\% (201/360)} & \textbf{51\% (466/906)} & \textbf{56\% (602/1069)} & \textbf{53\% (1108/2098)} \\
+Real World & \textbf{51\% (247/480)} & \textbf{53\% (420/786)} & \textbf{53\% (745/1394)} & \textbf{54\% (965/1773)} \\
+Specificity & \textbf{55\% (271/494)} & \textbf{51\% (396/772)} & \textbf{56\% (739/1325)} & \textbf{53\% (971/1842)} \\
+Technical Accuracy & \textbf{54\% (261/483)} & \textbf{52\% (406/783)} & \textbf{57\% (720/1257)} & \textbf{52\% (990/1910)} \\
+Math & \textbf{53\% (627/1173)} & \textbf{43\% (40/93)} & \textbf{55\% (1611/2936)} & \textbf{43\% (99/231)} \\
+Instruction Following & \textbf{54\% (545/1016)} & \textbf{49\% (122/250)} & \textbf{54\% (1453/2667)} & \textbf{51\% (257/500)} \\
+Is Code & \textbf{52\% (516/991)} & \textbf{55\% (151/275)} & \textbf{54\% (1190/2186)} & \textbf{53\% (520/981)} \\
+English & \textbf{53\% (667/1266)} & \textbf{0\% (0/0)} & \textbf{53\% (460/863)} & \textbf{54\% (1250/2304)} \\
+\bottomrule
+\end{tabular}
+\end{table}

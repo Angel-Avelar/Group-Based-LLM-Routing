@@ -1,0 +1,20 @@
+[
+  {
+    "group":"overall",
+    "train_n":68843,
+    "train_acc_k1":0.6619,
+    "train_acc_base":0.6619,
+    "test_n":29505,
+    "test_acc_k1":0.628,
+    "test_acc_base":0.628
+  },
+  {
+    "group":"g0",
+    "train_n":68843,
+    "train_acc_k1":0.6619,
+    "train_acc_base":0.6619,
+    "test_n":29505,
+    "test_acc_k1":0.628,
+    "test_acc_base":0.628
+  }
+]

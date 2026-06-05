@@ -1,0 +1,29 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.2}
+\caption{Win rate of gemini-2.5-flash by category and group (\textbf{bold} = significant at $\alpha=0.05$)}
+\label{tab:winrate_2}
+\begin{tabular}{lcccc}
+\toprule
+ & \multicolumn{4}{c}{$k=2$ groups} \\
+\cmidrule(lr){2-5}
+ & \multicolumn{2}{c}{group 0} & \multicolumn{2}{c}{group 1} \\
+Category & F & T & F & T \\
+\midrule
+Creative Writing & 66\% (851/1291) & 64\% (99/155) & 61\% (1917/3142) & 60\% (162/269) \\
+Complexity & 65\% (486/752) & 67\% (464/694) & 60\% (1051/1748) & 62\% (1028/1663) \\
+Creativity & 63\% (385/610) & 68\% (565/836) & \textbf{59\% (966/1639)} & \textbf{63\% (1113/1772)} \\
+Domain Knowledge & 63\% (159/253) & 66\% (791/1193) & \textbf{55\% (363/659)} & \textbf{62\% (1716/2752)} \\
+Problem Solving & \textbf{59\% (237/404)} & \textbf{68\% (713/1042)} & \textbf{57\% (639/1121)} & \textbf{63\% (1440/2290)} \\
+Real World & \textbf{62\% (353/568)} & \textbf{68\% (597/878)} & 59\% (889/1495) & 62\% (1190/1916) \\
+Specificity & 63\% (377/595) & 67\% (573/851) & 61\% (903/1485) & 61\% (1176/1926) \\
+Technical Accuracy & 64\% (378/595) & 67\% (572/851) & 59\% (781/1322) & 62\% (1298/2089) \\
+Math & 65\% (875/1337) & 69\% (75/109) & \textbf{60\% (1894/3140)} & \textbf{68\% (185/271)} \\
+Instruction Following & 65\% (742/1145) & 69\% (208/301) & 61\% (1758/2871) & 59\% (321/540) \\
+Is Code & 65\% (738/1133) & 68\% (212/313) & \textbf{62\% (1464/2356)} & \textbf{58\% (615/1055)} \\
+English & 66\% (950/1446) & 0\% (0/0) & 59\% (532/904) & 62\% (1547/2507) \\
+\bottomrule
+\end{tabular}
+\end{table}

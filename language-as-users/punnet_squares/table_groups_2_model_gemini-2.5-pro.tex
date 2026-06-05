@@ -1,0 +1,29 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.2}
+\caption{Win rate of gemini-2.5-pro by category and group (\textbf{bold} = significant at $\alpha=0.05$)}
+\label{tab:winrate_2}
+\begin{tabular}{lcccc}
+\toprule
+ & \multicolumn{4}{c}{$k=2$ groups} \\
+\cmidrule(lr){2-5}
+ & \multicolumn{2}{c}{group 0} & \multicolumn{2}{c}{group 1} \\
+Category & F & T & F & T \\
+\midrule
+Creative Writing & 78\% (1028/1325) & 81\% (136/168) & 71\% (2202/3108) & 69\% (173/251) \\
+Complexity & \textbf{80\% (650/811)} & \textbf{75\% (514/682)} & 70\% (1161/1668) & 72\% (1214/1691) \\
+Creativity & 79\% (489/616) & 77\% (675/877) & 70\% (1132/1627) & 72\% (1243/1732) \\
+Domain Knowledge & 79\% (202/256) & 78\% (962/1237) & \textbf{63\% (387/614)} & \textbf{72\% (1988/2745)} \\
+Problem Solving & 81\% (345/424) & 77\% (819/1069) & \textbf{68\% (739/1083)} & \textbf{72\% (1636/2276)} \\
+Real World & 79\% (443/560) & 77\% (721/933) & \textbf{68\% (976/1426)} & \textbf{72\% (1399/1933)} \\
+Specificity & \textbf{82\% (492/600)} & \textbf{75\% (672/893)} & 71\% (961/1362) & 71\% (1414/1997) \\
+Technical Accuracy & 79\% (481/608) & 77\% (683/885) & 69\% (884/1278) & 72\% (1491/2081) \\
+Math & 78\% (1089/1395) & 77\% (75/98) & \textbf{70\% (2185/3111)} & \textbf{77\% (190/248)} \\
+Instruction Following & \textbf{80\% (959/1199)} & \textbf{70\% (205/294)} & 71\% (1983/2796) & 70\% (392/563) \\
+Is Code & 79\% (940/1193) & 75\% (224/300) & 71\% (1620/2281) & 70\% (755/1078) \\
+English & 78\% (1164/1493) & 0\% (0/0) & 71\% (654/916) & 70\% (1721/2443) \\
+\bottomrule
+\end{tabular}
+\end{table}
